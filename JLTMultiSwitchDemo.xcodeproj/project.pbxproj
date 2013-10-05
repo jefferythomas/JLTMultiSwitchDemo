@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B3F96A117FFBE6700497F7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3F96A017FFBE6700497F7D /* Foundation.framework */; };
+		7B3F96A317FFBE6700497F7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3F96A217FFBE6700497F7D /* CoreGraphics.framework */; };
+		7B3F96A517FFBE6700497F7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3F96A417FFBE6700497F7D /* UIKit.framework */; };
+		7B3F96AB17FFBE6700497F7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B3F96A917FFBE6700497F7D /* InfoPlist.strings */; };
+		7B3F96AD17FFBE6700497F7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3F96AC17FFBE6700497F7D /* main.m */; };
+		7B3F96B117FFBE6700497F7D /* JLTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3F96B017FFBE6700497F7D /* JLTAppDelegate.m */; };
+		7B3F96B417FFBE6700497F7D /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3F96B217FFBE6700497F7D /* Main_iPhone.storyboard */; };
+		7B3F96B717FFBE6700497F7D /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3F96B517FFBE6700497F7D /* Main_iPad.storyboard */; };
+		7B3F96BA17FFBE6700497F7D /* JLTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3F96B917FFBE6700497F7D /* JLTViewController.m */; };
+		7B3F96BC17FFBE6700497F7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B3F96BB17FFBE6700497F7D /* Images.xcassets */; };
+		7B3F96C317FFBE6700497F7D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3F96C217FFBE6700497F7D /* XCTest.framework */; };
+		7B3F96C417FFBE6700497F7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3F96A017FFBE6700497F7D /* Foundation.framework */; };
+		7B3F96C517FFBE6700497F7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B3F96A417FFBE6700497F7D /* UIKit.framework */; };
+		7B3F96CD17FFBE6700497F7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B3F96CB17FFBE6700497F7D /* InfoPlist.strings */; };
+		7B3F96CF17FFBE6700497F7D /* JLTMultiSwitchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3F96CE17FFBE6700497F7D /* JLTMultiSwitchDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B3F96C617FFBE6700497F7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B3F969517FFBE6700497F7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B3F969C17FFBE6700497F7D;
+			remoteInfo = JLTMultiSwitchDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B3F969D17FFBE6700497F7D /* JLTMultiSwitchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLTMultiSwitchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3F96A017FFBE6700497F7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B3F96A217FFBE6700497F7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B3F96A417FFBE6700497F7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7B3F96A817FFBE6700497F7D /* JLTMultiSwitchDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JLTMultiSwitchDemo-Info.plist"; sourceTree = "<group>"; };
+		7B3F96AA17FFBE6700497F7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B3F96AC17FFBE6700497F7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B3F96AE17FFBE6700497F7D /* JLTMultiSwitchDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JLTMultiSwitchDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7B3F96AF17FFBE6700497F7D /* JLTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLTAppDelegate.h; sourceTree = "<group>"; };
+		7B3F96B017FFBE6700497F7D /* JLTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLTAppDelegate.m; sourceTree = "<group>"; };
+		7B3F96B317FFBE6700497F7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		7B3F96B617FFBE6700497F7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		7B3F96B817FFBE6700497F7D /* JLTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLTViewController.h; sourceTree = "<group>"; };
+		7B3F96B917FFBE6700497F7D /* JLTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLTViewController.m; sourceTree = "<group>"; };
+		7B3F96BB17FFBE6700497F7D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7B3F96C117FFBE6700497F7D /* JLTMultiSwitchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLTMultiSwitchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3F96C217FFBE6700497F7D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7B3F96CA17FFBE6700497F7D /* JLTMultiSwitchDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JLTMultiSwitchDemoTests-Info.plist"; sourceTree = "<group>"; };
+		7B3F96CC17FFBE6700497F7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B3F96CE17FFBE6700497F7D /* JLTMultiSwitchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLTMultiSwitchDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B3F969A17FFBE6700497F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3F96A317FFBE6700497F7D /* CoreGraphics.framework in Frameworks */,
+				7B3F96A517FFBE6700497F7D /* UIKit.framework in Frameworks */,
+				7B3F96A117FFBE6700497F7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3F96BE17FFBE6700497F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3F96C317FFBE6700497F7D /* XCTest.framework in Frameworks */,
+				7B3F96C517FFBE6700497F7D /* UIKit.framework in Frameworks */,
+				7B3F96C417FFBE6700497F7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B3F969417FFBE6700497F7D = {
+			isa = PBXGroup;
+			children = (
+				7B3F96A617FFBE6700497F7D /* JLTMultiSwitchDemo */,
+				7B3F96C817FFBE6700497F7D /* JLTMultiSwitchDemoTests */,
+				7B3F969F17FFBE6700497F7D /* Frameworks */,
+				7B3F969E17FFBE6700497F7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B3F969E17FFBE6700497F7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B3F969D17FFBE6700497F7D /* JLTMultiSwitchDemo.app */,
+				7B3F96C117FFBE6700497F7D /* JLTMultiSwitchDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B3F969F17FFBE6700497F7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B3F96A017FFBE6700497F7D /* Foundation.framework */,
+				7B3F96A217FFBE6700497F7D /* CoreGraphics.framework */,
+				7B3F96A417FFBE6700497F7D /* UIKit.framework */,
+				7B3F96C217FFBE6700497F7D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B3F96A617FFBE6700497F7D /* JLTMultiSwitchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7B3F96AF17FFBE6700497F7D /* JLTAppDelegate.h */,
+				7B3F96B017FFBE6700497F7D /* JLTAppDelegate.m */,
+				7B3F96B217FFBE6700497F7D /* Main_iPhone.storyboard */,
+				7B3F96B517FFBE6700497F7D /* Main_iPad.storyboard */,
+				7B3F96B817FFBE6700497F7D /* JLTViewController.h */,
+				7B3F96B917FFBE6700497F7D /* JLTViewController.m */,
+				7B3F96BB17FFBE6700497F7D /* Images.xcassets */,
+				7B3F96A717FFBE6700497F7D /* Supporting Files */,
+			);
+			path = JLTMultiSwitchDemo;
+			sourceTree = "<group>";
+		};
+		7B3F96A717FFBE6700497F7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B3F96A817FFBE6700497F7D /* JLTMultiSwitchDemo-Info.plist */,
+				7B3F96A917FFBE6700497F7D /* InfoPlist.strings */,
+				7B3F96AC17FFBE6700497F7D /* main.m */,
+				7B3F96AE17FFBE6700497F7D /* JLTMultiSwitchDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B3F96C817FFBE6700497F7D /* JLTMultiSwitchDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B3F96CE17FFBE6700497F7D /* JLTMultiSwitchDemoTests.m */,
+				7B3F96C917FFBE6700497F7D /* Supporting Files */,
+			);
+			path = JLTMultiSwitchDemoTests;
+			sourceTree = "<group>";
+		};
+		7B3F96C917FFBE6700497F7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B3F96CA17FFBE6700497F7D /* JLTMultiSwitchDemoTests-Info.plist */,
+				7B3F96CB17FFBE6700497F7D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B3F969C17FFBE6700497F7D /* JLTMultiSwitchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B3F96D217FFBE6700497F7D /* Build configuration list for PBXNativeTarget "JLTMultiSwitchDemo" */;
+			buildPhases = (
+				7B3F969917FFBE6700497F7D /* Sources */,
+				7B3F969A17FFBE6700497F7D /* Frameworks */,
+				7B3F969B17FFBE6700497F7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLTMultiSwitchDemo;
+			productName = JLTMultiSwitchDemo;
+			productReference = 7B3F969D17FFBE6700497F7D /* JLTMultiSwitchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B3F96C017FFBE6700497F7D /* JLTMultiSwitchDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B3F96D517FFBE6700497F7D /* Build configuration list for PBXNativeTarget "JLTMultiSwitchDemoTests" */;
+			buildPhases = (
+				7B3F96BD17FFBE6700497F7D /* Sources */,
+				7B3F96BE17FFBE6700497F7D /* Frameworks */,
+				7B3F96BF17FFBE6700497F7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B3F96C717FFBE6700497F7D /* PBXTargetDependency */,
+			);
+			name = JLTMultiSwitchDemoTests;
+			productName = JLTMultiSwitchDemoTests;
+			productReference = 7B3F96C117FFBE6700497F7D /* JLTMultiSwitchDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B3F969517FFBE6700497F7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JLT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "JLT Source";
+				TargetAttributes = {
+					7B3F96C017FFBE6700497F7D = {
+						TestTargetID = 7B3F969C17FFBE6700497F7D;
+					};
+				};
+			};
+			buildConfigurationList = 7B3F969817FFBE6700497F7D /* Build configuration list for PBXProject "JLTMultiSwitchDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B3F969417FFBE6700497F7D;
+			productRefGroup = 7B3F969E17FFBE6700497F7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B3F969C17FFBE6700497F7D /* JLTMultiSwitchDemo */,
+				7B3F96C017FFBE6700497F7D /* JLTMultiSwitchDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B3F969B17FFBE6700497F7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3F96B717FFBE6700497F7D /* Main_iPad.storyboard in Resources */,
+				7B3F96BC17FFBE6700497F7D /* Images.xcassets in Resources */,
+				7B3F96B417FFBE6700497F7D /* Main_iPhone.storyboard in Resources */,
+				7B3F96AB17FFBE6700497F7D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3F96BF17FFBE6700497F7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3F96CD17FFBE6700497F7D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B3F969917FFBE6700497F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3F96BA17FFBE6700497F7D /* JLTViewController.m in Sources */,
+				7B3F96AD17FFBE6700497F7D /* main.m in Sources */,
+				7B3F96B117FFBE6700497F7D /* JLTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B3F96BD17FFBE6700497F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3F96CF17FFBE6700497F7D /* JLTMultiSwitchDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B3F96C717FFBE6700497F7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B3F969C17FFBE6700497F7D /* JLTMultiSwitchDemo */;
+			targetProxy = 7B3F96C617FFBE6700497F7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B3F96A917FFBE6700497F7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B3F96AA17FFBE6700497F7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7B3F96B217FFBE6700497F7D /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B3F96B317FFBE6700497F7D /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7B3F96B517FFBE6700497F7D /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B3F96B617FFBE6700497F7D /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		7B3F96CB17FFBE6700497F7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B3F96CC17FFBE6700497F7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B3F96D017FFBE6700497F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B3F96D117FFBE6700497F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B3F96D317FFBE6700497F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLTMultiSwitchDemo/JLTMultiSwitchDemo-Prefix.pch";
+				INFOPLIST_FILE = "JLTMultiSwitchDemo/JLTMultiSwitchDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B3F96D417FFBE6700497F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLTMultiSwitchDemo/JLTMultiSwitchDemo-Prefix.pch";
+				INFOPLIST_FILE = "JLTMultiSwitchDemo/JLTMultiSwitchDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7B3F96D617FFBE6700497F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JLTMultiSwitchDemo.app/JLTMultiSwitchDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLTMultiSwitchDemo/JLTMultiSwitchDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JLTMultiSwitchDemoTests/JLTMultiSwitchDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7B3F96D717FFBE6700497F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JLTMultiSwitchDemo.app/JLTMultiSwitchDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JLTMultiSwitchDemo/JLTMultiSwitchDemo-Prefix.pch";
+				INFOPLIST_FILE = "JLTMultiSwitchDemoTests/JLTMultiSwitchDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B3F969817FFBE6700497F7D /* Build configuration list for PBXProject "JLTMultiSwitchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B3F96D017FFBE6700497F7D /* Debug */,
+				7B3F96D117FFBE6700497F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B3F96D217FFBE6700497F7D /* Build configuration list for PBXNativeTarget "JLTMultiSwitchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B3F96D317FFBE6700497F7D /* Debug */,
+				7B3F96D417FFBE6700497F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B3F96D517FFBE6700497F7D /* Build configuration list for PBXNativeTarget "JLTMultiSwitchDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B3F96D617FFBE6700497F7D /* Debug */,
+				7B3F96D717FFBE6700497F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B3F969517FFBE6700497F7D /* Project object */;
+}
