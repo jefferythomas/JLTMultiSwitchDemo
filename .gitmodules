@@ -1,0 +1,3 @@
+[submodule "JLTMultiSwitch"]
+	path = JLTMultiSwitch
+	url = git@github.com:jefferythomas/JLTMultiSwitch.git
